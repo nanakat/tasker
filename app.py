@@ -59,9 +59,9 @@ def edit(id):
     else:
         return render_template('edit.html', task=task)
 
-@app.route('/templates/doc.html')
+@app.route('/templates/doc')
 def doc():
-    return render_template('templates/doc.html')
+    return render_template('doc.html')
 
 if __name__ == "__main__":
     app.run(debug=True)
