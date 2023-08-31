@@ -1,0 +1,45 @@
+@import url('../css/fonts/Roboto-Regular.ttf');
+
+body, html {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: lightgray;
+}
+.content{
+    margin: auto;
+    width: 400px;
+}
+
+table, td, th {
+    border: 1px solid #aaa;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    height: 30px;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: lightblue;
+}
+
+td:first-child {
+    text-align: left;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+#content {
+    width: 70%;
+}
